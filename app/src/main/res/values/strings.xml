@@ -29,6 +29,7 @@
     <string name="open_daily_from_7_00_a_m">Open Daily from 7.00 a.m</string>
     <string name="store_short_description">Store Short Description</string>
 
+
     <array name="dessert_images">
         <item>@drawable/donut</item>
         <item>@drawable/cake</item>
