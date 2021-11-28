@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Droid Caffe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">Dessert Recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_cook_time_2hrs">Prep and Cook Time: 2hrs</string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_donuts">How to Prepare Donuts</string>
+    <string name="how_to_prepare_blackforest_cake">How to Prepare BlackForest Cake</string>
+    <string name="how_to_make_ham_sandwiches">How to make Ham Sandwiches</string>
+    <string name="pastries_recipes">Pastries Recipes</string>
+    <string name="browse_pastries_recipes">Browse Pastries Recipes</string>
+    <string name="pastries_title">Pastries Title</string>
+    <string name="pastries_description">Pastries Short Description</string>
+    <string name="how_to_prepare_croissant">How to prepare Croissant</string>
+    <string name="how_to_prepare_pretzel">How to prepare Pretzel</string>
+    <string name="how_to_prepare_strudel">How to Prepare Strudel</string>
+    <string name="our_stores">Our Stores</string>
+    <string name="browse_our_stores">Browse Our Stores</string>
+    <string name="store_time_open">Open Daily from 7.00 a.m</string>
+    <string name="store_title">Store Title</string>
+    <string name="open_daily_from_7_00_a_m">Open Daily from 7.00 a.m</string>
+    <string name="store_short_description">Store Short Description</string>
+
+    <array name="dessert_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/sand</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/sand</item>
+    </array>
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Cake</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Cake</item>
+        <item>Sandwich</item>
+    </string-array>
+    <string-array name="dessert_description">
+        <item>Donuts are glaced and sprinkled with candy</item>
+        <item>Cake is Black Forest with Vanilla frosting</item>
+        <item>Sandwich which has tomatoes and pork ham</item>
+        <item>Donuts are glaced and sprinkled with candy</item>
+        <item>Cake is Black Forest with Vanilla frosting</item>
+        <item>Sandwich which has tomatoes and pork ham</item>
+    </string-array>
+    <array name="pastries_images">
+        <item>@drawable/croissant</item>
+        <item>@drawable/pretzel</item>
+        <item>@drawable/strudel</item>
+        <item>@drawable/croissant</item>
+        <item>@drawable/pretzel</item>
+        <item>@drawable/strudel</item>
+    </array>
+    <string-array name="pastries_title">
+        <item>Croissant</item>
+        <item>Pretzel</item>
+        <item>Strudel</item>
+        <item>Croissant</item>
+        <item>Pretzel</item>
+        <item>Strudel</item>
+    </string-array>
+    <string-array name="pastries_description">
+        <item>Nice Croissants</item>
+        <item>Nice Pretzels</item>
+        <item>Nice Strudels</item>
+        <item>Nice Croissants</item>
+        <item>Nice Pretzels</item>
+        <item>Nice Strudels</item>
+    </string-array>
+    <array name="store_images">
+        <item>@drawable/thehub</item>
+        <item>@drawable/galleria</item>
+        <item>@drawable/trm</item>
+        <item>@drawable/westgate</item>
+        <item>@drawable/tworivers</item>
+        <item>@drawable/village</item>
+    </array>
+    <string-array name="store_title">
+        <item>The Hub</item>
+        <item>Galleria Mall</item>
+        <item>TRM</item>
+        <item>Westgate Mall</item>
+        <item>Two Rivers Mall</item>
+        <item>Village Market</item>
+    </string-array>
+    <string-array name="store_description">
+        <item>Nice Hub</item>
+        <item>Nice Galleria</item>
+        <item>Nice TRM</item>
+        <item>Nice Westgate</item>
+        <item>Nice Two Rivers</item>
+        <item>Nice Village</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
