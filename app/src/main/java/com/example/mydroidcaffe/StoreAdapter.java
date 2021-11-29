@@ -17,7 +17,8 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 public class StoreAdapter extends RecyclerView.Adapter<StoreAdapter.ViewHolder>{
-private ArrayList<Store> storeData;
+
+    private ArrayList<Store> storeData;
 private Context sContext;
 
         StoreAdapter(ArrayList<Store> mStoreData, Context context){

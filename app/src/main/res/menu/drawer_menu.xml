@@ -2,24 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-    <group android:checkableBehavior="single">
+    <item android:title="Recipes">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_pizza"
+                    android:icon="@drawable/ic_pizza"
+                    android:title="Pizza" />
+                <item
+                    android:id="@+id/nav_cocktails"
+                    android:icon="@drawable/ic_cocktails"
+                    android:title="Cocktails" />
+                <item
+                    android:id="@+id/nav_pasta"
+                    android:icon="@drawable/ic_pasta"
+                    android:title="Pasta" />
+            </group>
+        </menu>
+    </item>
 
-        <item
-            android:id="@+id/nav_pizza"
-            android:icon="@drawable/ic_pizza"
-            android:title="Pizza" />
-        <item
-            android:id="@+id/nav_cocktails"
-            android:icon="@drawable/ic_cocktails"
-            android:title="Cocktails" />
-        <item
-            android:id="@+id/nav_pasta"
-            android:icon="@drawable/ic_pasta"
-            android:title="Pasta" />
-
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="Communication">
         <menu>
             <item
                 android:id="@+id/nav_contact"

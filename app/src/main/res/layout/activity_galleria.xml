@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".GalleriaActivity">
     <RelativeLayout
         android:id="@+id/galleria_cardView"
@@ -62,7 +63,6 @@
             android:theme="@style/ThemeOverlay.AppCompat.Light"
             android:textStyle="italic"
             />
-
 
     </RelativeLayout>
     <RelativeLayout

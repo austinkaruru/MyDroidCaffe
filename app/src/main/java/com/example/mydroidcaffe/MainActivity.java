@@ -10,15 +10,19 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.mydroidcaffe.PagerAdapter;
 import com.example.mydroidcaffe.R;
+
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
+    private Toolbar toolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //inflate toolbar
         Toolbar toolbar = findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
+
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -41,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tablayout.addTab(tablayout.newTab().setText(R.string.tab_label_3));
 
         tablayout.setTabGravity(tablayout.GRAVITY_FILL);
+
 
         final ViewPager viewPager = findViewById(R.id.view_pager);
         final PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), tablayout.getTabCount());

@@ -20,7 +20,6 @@ import java.util.Collections;
 public class StoresFragment extends Fragment {
 
 
-
     private RecyclerView storesRecyclerview;
     private ArrayList<Store> storeData;
     private StoreAdapter storeAdapter;
